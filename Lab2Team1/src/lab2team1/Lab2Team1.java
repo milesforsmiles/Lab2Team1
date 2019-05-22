@@ -25,8 +25,11 @@ public class Lab2Team1 {
 
     public static void main(String[] args) {
         System.out.println("Look I made a Thread!");
+        Account emma = new Account ("Emma", 300);
+        Account john = new Account ("John", 200);
         
         Thread t1 = new Thread();
+        Thread t2 = new Thread();
     }
     
 }
