@@ -37,10 +37,10 @@ public class Lab3Team1 {
 
         try {
             InetAddress redditInet = InetAddress.getByName("www.reddit.com");
-            System.out.println("  : " + redditInet.getCanonicalHostName());
-            System.out.println("  : " + redditInet.getHostName());
-            System.out.println("  : " + redditInet.isReachable(10000));
-            System.out.println("  : " + redditInet.getHostAddress());
+            System.out.println("Reddit CanonicalHostName  : " + redditInet.getCanonicalHostName());
+            System.out.println("Reddit Host Name  : " + redditInet.getHostName());
+            System.out.println("Is Reddit Reachable : " + redditInet.isReachable(10000));
+            System.out.println("Reddit Host Address : " + redditInet.getHostAddress());
         } catch (IOException e) {
             e.printStackTrace();
         }
